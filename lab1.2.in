@@ -1,0 +1,30 @@
+[Sigma]
+0
+1
+End
+# aici
+# bagam niste
+# comentarii
+[States]
+q1
+q2,s
+q3
+q4
+q5,f
+End
+# aici iar bagam
+# niste comentarii
+[Actions]
+q1,1,q2
+q1,0,q1
+q2,1,q3
+q2,0,q2
+q3,1,q4
+q3,0,q3
+q4,1,q5
+q4,0,q4
+q5,1,q1
+q5,0,q5
+End
+# bagam niste comentarii
+# in seama, ce sa facem
