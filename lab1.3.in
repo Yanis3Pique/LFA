@@ -1,0 +1,28 @@
+#DFA - accept all strings over {0,1} such that #1 mod 3 = 0
+[Sigma]
+0
+1
+End
+# aici
+# bagam niste
+# comentarii
+[States]
+q0,s,f
+q1
+q2
+q3,f
+End
+# aici iar bagam
+# niste comentarii
+[Transitions]
+q0,0,q0
+q0,1,q1
+q1,0,q1
+q1,1,q2
+q2,0,q2
+q2,1,q3
+q3,0,q3
+q3,1,q1
+End
+# bagam niste comentarii
+# in seama, ce sa facem
