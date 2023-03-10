@@ -1,0 +1,64 @@
+#Catalin
+#dfa - accept all strings such that #1 mod 3 = 0 and #0 mod 3 = 0
+[Sigma]
+#elementele alfabetului cate unul pe linie
+0
+1
+#eroare daca e gol
+[Stari]
+#starile posibile listate cate una pe linie si alaturi indicele 1 - daca e stare initiala 2 - daca e stare finala 0 - daca e stare oarecare
+q00,s,f
+q01
+q02
+q03,f
+q10
+q11
+q12
+q13
+q20
+q21
+q22
+q23
+q30,f
+q31
+q32
+q33,f
+#eroare daca nu exista stare finala si initiala
+#eroare daca sunt multiple de starri initiale
+#eroare daca sunt mai multe stari de acelasi tip
+[Actions]
+#actiunile listate cate una pe linie in forma (stare initiala, simbolul, stare finala) fara virgule
+q00,0,q01
+q00,1,q10
+q01,0,q02
+q01,1,q11
+q02,0,q03
+q02,1,q12
+q03,0,q01
+q03,1,q13
+q10,0,q11
+q10,1,q20
+q11,0,q12
+q11,1,q21
+q12,0,q13
+q12,1,q22
+q13,0,q11
+q13,1,q23
+q20,0,q21
+q20,1,q30
+q21,0,q22
+q21,1,q31
+q22,0,q23
+q22,1,q32
+q23,0,q21
+q23,1,q33
+q30,0,q31
+q30,1,q10
+q31,0,q32
+q31,1,q11
+q32,0,q33
+q32,1,q12
+q33,0,q31
+q33,1,q13
+#eroare daca starile sau simbolul nu exista
+#eroare daca nu exista actiune de la starea initiala sau catre starea finala
