@@ -1,0 +1,21 @@
+[Student]
+#Date despre numele studentului
+#Blah blah blah
+Georgescu
+Popescu
+Vasilescu
+Ionescu
+
+[Orar]
+#Date despre orar
+Tehnici Web
+LFA
+POO
+
+[Note]
+#Date despre note
+10
+7
+8
+6
+9
