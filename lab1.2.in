@@ -1,0 +1,28 @@
+#DFA - accept all strings over {0,1} with sufix 100
+[Sigma]
+0
+1
+End
+# aici
+# bagam niste
+# comentarii
+[States]
+q0
+q1,s
+q2
+q3,f
+End
+# aici iar bagam
+# niste comentarii
+[Transitions]
+q0,1,q0
+q0,1,q1
+q1,0,q2
+q1,1,q1
+q2,0,q3
+q2,1,q1
+q3,0,q0
+q3,1,q1
+End
+# bagam niste comentarii
+# in seama, ce sa facem
