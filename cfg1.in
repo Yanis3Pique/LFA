@@ -1,0 +1,12 @@
+# Variabila/Starea de start trebuie sa fie mereu prima
+[Vars]
+A,*
+B
+[Sigma]
+0
+1
+#
+~
+[Rules]
+A->0,A,1|B|~
+B->#
