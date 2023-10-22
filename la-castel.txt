@@ -1,0 +1,325 @@
+[Sigma]
+key
+invitation
+chef's hat
+spoon
+sword
+crown
+ancient coin
+spell book
+magic wand
+Entrance Hall
+Dining Room
+Kitchen
+Armoury
+Treasury
+Library
+Pantry
+Throne Room
+Wizard's Study
+Secret Exit
+sEntrance Hall
+sDining Room
+sKitchen
+sArmoury
+sTreasury
+sLibrary
+sPantry
+sThrone Room
+sWizard's Study
+sSecret Exit
+lEntrance Hall
+lDining Room
+lKitchen
+lArmoury
+lTreasury
+lLibrary
+lPantry
+lThrone Room
+lWizard's Study
+lSecret Exit
+fSecret Exit
+[Gama]
+key
+invitation
+chef's hat
+spoon
+sword
+crown
+ancient coin
+spell book
+magic wand
+[States]
+Entrance Hall,F
+Dining Room,S,F
+Kitchen,F
+Armoury,F
+Treasury,F
+Library,F
+Pantry,F
+Throne Room,F
+Wizard's Study,F
+Secret Exit,F
+[Actions]
+#stare,input,inLista,stareUrmatoare,sterge,introdu
+#acces
+Entrance Hall,Entrance Hall,*,Entrance Hall,*,*
+Entrance Hall,Armoury,key,Armoury,*,*
+Entrance Hall,Dining Room,*,Dining Room,*,*
+Dining Room,Dining Room,*,Dining Room,*,*
+Dining Room,Entrance Hall,invitation,Entrance Hall,*,*
+Dining Room,Kitchen,chef's hat,Kitchen,*,*
+Kitchen,Kitchen,*,Kitchen,*,*
+Kitchen,Pantry,spoon,Pantry,*,*
+Kitchen,Dining Room,*,Dining Room,*,*
+Pantry,Pantry,*,Pantry,*,*
+Pantry,Kitchen,*,Kitchen,*,*
+Armoury,Armoury,*,Armoury,*,*
+Armoury,Treasury,sword,Treasury,*,*
+Armoury,Throne Room,crown,Throne Room,*,*
+Armoury,Entrance Hall,*,Entrance Hall,*,*
+Treasury,Treasury,*,Treasury,*,*
+Treasury,Library,ancient coin,Library,*,*
+Treasury,Armoury,*,Armoury,*,*
+Library,Library,*,Library,*,*
+Library,Wizard's Study,spell book,Wizard's Study,*,*
+Library,Treasury,*,Treasury,*,*
+Library,Secret Exit,*,Secret Exit,*,*
+Throne Room,Throne Room,*,Throne Room,*,*
+Throne Room,Armoury,*,Armoury,*,*
+Wizard's Study,Wizard's Study,*,Wizard's Study,*,*
+Wizard's Study,Secret Exit,magic wand,Secret Exit,*,*
+Wizard's Study,Library,*,Library,*,*
+#adauga
+#
+#key
+Entrance Hall,key,*,Entrance Hall,key,key
+Dining Room,key,*,Dining Room,key,key
+Kitchen,key,*,Kitchen,key,key
+Armoury,key,*,Armoury,key,key
+Treasury,key,*,Treasury,key,key
+Library,key,*,Library,key,key
+Pantry,key,*,Pantry,key,key
+Throne Room,key,*,Throne Room,key,key
+Wizard's Study,key,*,Wizard's Study,key,key
+Secret Exit,key,*,Secret Exit,key,key
+#
+#invitation
+Entrance Hall,invitation,*,Entrance Hall,invitation,invitation
+Dining Room,invitation,*,Dining Room,invitation,invitation
+Kitchen,invitation,*,Kitchen,invitation,invitation
+Armoury,invitation,*,Armoury,invitation,invitation
+Treasury,invitation,*,Treasury,invitation,invitation
+Library,invitation,*,Library,invitation,invitation
+Pantry,invitation,*,Pantry,invitation,invitation
+Throne Room,invitation,*,Throne Room,invitation,invitation
+Wizard's Study,invitation,*,Wizard's Study,invitation,invitation
+Secret Exit,invitation,*,Secret Exit,invitation,invitation
+#
+#chef's hat
+Entrance Hall,chef's hat,*,Entrance Hall,chef's hat,chef's hat
+Dining Room,chef's hat,*,Dining Room,chef's hat,chef's hat
+Kitchen,chef's hat,*,Kitchen,chef's hat,chef's hat
+Armoury,chef's hat,*,Armoury,chef's hat,chef's hat
+Treasury,chef's hat,*,Treasury,chef's hat,chef's hat
+Library,chef's hat,*,Library,chef's hat,chef's hat
+Pantry,chef's hat,*,Pantry,chef's hat,chef's hat
+Throne Room,chef's hat,*,Throne Room,chef's hat,chef's hat
+Wizard's Study,chef's hat,*,Wizard's Study,chef's hat,chef's hat
+Secret Exit,chef's hat,*,Secret Exit,chef's hat,chef's hat
+#
+#spoon
+Entrance Hall,spoon,*,Entrance Hall,spoon,spoon
+Dining Room,spoon,*,Dining Room,spoon,spoon
+Kitchen,spoon,*,Kitchen,spoon,spoon
+Armoury,spoon,*,Armoury,spoon,spoon
+Treasury,spoon,*,Treasury,spoon,spoon
+Library,spoon,*,Library,spoon,spoon
+Pantry,spoon,*,Pantry,spoon,spoon
+Throne Room,spoon,*,Throne Room,spoon,spoon
+Wizard's Study,spoon,*,Wizard's Study,spoon,spoon
+Secret Exit,spoon,*,Secret Exit,spoon,spoon
+#
+#sword
+Entrance Hall,sword,*,Entrance Hall,sword,sword
+Dining Room,sword,*,Dining Room,sword,sword
+Kitchen,sword,*,Kitchen,sword,sword
+Armoury,sword,*,Armoury,sword,sword
+Treasury,sword,*,Treasury,sword,sword
+Library,sword,*,Library,sword,sword
+Pantry,sword,*,Pantry,sword,sword
+Throne Room,sword,*,Throne Room,sword,sword
+Wizard's Study,sword,*,Wizard's Study,sword,sword
+Secret Exit,sword,*,Secret Exit,sword,sword
+#
+#crown
+Entrance Hall,crown,*,Entrance Hall,crown,crown
+Dining Room,crown,*,Dining Room,crown,crown
+Kitchen,crown,*,Kitchen,crown,crown
+Armoury,crown,*,Armoury,crown,crown
+Treasury,crown,*,Treasury,crown,crown
+Library,crown,*,Library,crown,crown
+Pantry,crown,*,Pantry,crown,crown
+Throne Room,crown,*,Throne Room,crown,crown
+Wizard's Study,crown,*,Wizard's Study,crown,crown
+Secret Exit,crown,*,Secret Exit,crown,crown
+#
+#ancient coin
+Entrance Hall,ancient coin,*,Entrance Hall,ancient coin,ancient coin
+Dining Room,ancient coin,*,Dining Room,ancient coin,ancient coin
+Kitchen,ancient coin,*,Kitchen,ancient coin,ancient coin
+Armoury,ancient coin,*,Armoury,ancient coin,ancient coin
+Treasury,ancient coin,*,Treasury,ancient coin,ancient coin
+Library,ancient coin,*,Library,ancient coin,ancient coin
+Pantry,ancient coin,*,Pantry,ancient coin,ancient coin
+Throne Room,ancient coin,*,Throne Room,ancient coin,ancient coin
+Wizard's Study,ancient coin,*,Wizard's Study,ancient coin,ancient coin
+Secret Exit,ancient coin,*,Secret Exit,ancient coin,ancient coin
+#
+#spell book
+Entrance Hall,spell book,*,Entrance Hall,spell book,spell book
+Dining Room,spell book,*,Dining Room,spell book,spell book
+Kitchen,spell book,*,Kitchen,spell book,spell book
+Armoury,spell book,*,Armoury,spell book,spell book
+Treasury,spell book,*,Treasury,spell book,spell book
+Library,spell book,*,Library,spell book,spell book
+Pantry,spell book,*,Pantry,spell book,spell book
+Throne Room,spell book,*,Throne Room,spell book,spell book
+Wizard's Study,spell book,*,Wizard's Study,spell book,spell book
+Secret Exit,spell book,*,Secret Exit,spell book,spell book
+#
+#magic wand
+Entrance Hall,magic wand,*,Entrance Hall,magic wand,magic wand
+Dining Room,magic wand,*,Dining Room,magic wand,magic wand
+Kitchen,magic wand,*,Kitchen,magic wand,magic wand
+Armoury,magic wand,*,Armoury,magic wand,magic wand
+Treasury,magic wand,*,Treasury,magic wand,magic wand
+Library,magic wand,*,Library,magic wand,magic wand
+Pantry,magic wand,*,Pantry,magic wand,magic wand
+Throne Room,magic wand,*,Throne Room,magic wand,magic wand
+Wizard's Study,magic wand,*,Wizard's Study,magic wand,magic wand
+Secret Exit,magic wand,*,Secret Exit,magic wand,magic wand
+#
+#admin set - acces permanent in camera in care se afla
+Entrance Hall,sEntrance Hall,*,Entrance Hall,*,*
+Dining Room,sEntrance Hall,*,Entrance Hall,*,*
+Kitchen,sEntrance Hall,*,Entrance Hall,*,*
+Armoury,sEntrance Hall,*,Entrance Hall,*,*
+Treasury,sEntrance Hall,*,Entrance Hall,*,*
+Library,sEntrance Hall,*,Entrance Hall,*,*
+Pantry,sEntrance Hall,*,Entrance Hall,*,*
+Throne Room,sEntrance Hall,*,Entrance Hall,*,*
+Wizard's Study,sEntrance Hall,*,Entrance Hall,*,*
+Secret Exit,sEntrance Hall,*,Entrance Hall,*,*
+Entrance Hall,sDining Room,*,Dining Room,*,*
+Dining Room,sDining Room,*,Dining Room,*,*
+Kitchen,sDining Room,*,Dining Room,*,*
+Armoury,sDining Room,*,Dining Room,*,*
+Treasury,sDining Room,*,Dining Room,*,*
+Library,sDining Room,*,Dining Room,*,*
+Pantry,sDining Room,*,Dining Room,*,*
+Throne Room,sDining Room,*,Dining Room,*,*
+Wizard's Study,sDining Room,*,Dining Room,*,*
+Secret Exit,sDining Room,*,Dining Room,*,*
+Entrance Hall,sKitchen,*,Kitchen,*,*
+Dining Room,sKitchen,*,Kitchen,*,*
+Kitchen,sKitchen,*,Kitchen,*,*
+Armoury,sKitchen,*,Kitchen,*,*
+Treasury,sKitchen,*,Kitchen,*,*
+Library,sKitchen,*,Kitchen,*,*
+Pantry,sKitchen,*,Kitchen,*,*
+Throne Room,sKitchen,*,Kitchen,*,*
+Wizard's Study,sKitchen,*,Kitchen,*,*
+Secret Exit,sKitchen,*,Kitchen,*,*
+Entrance Hall,sArmoury,*,Armoury,*,*
+Dining Room,sArmoury,*,Armoury,*,*
+Kitchen,sArmoury,*,Armoury,*,*
+Armoury,sArmoury,*,Armoury,*,*
+Treasury,sArmoury,*,Armoury,*,*
+Library,sArmoury,*,Armoury,*,*
+Pantry,sArmoury,*,Armoury,*,*
+Throne Room,sArmoury,*,Armoury,*,*
+Wizard's Study,sArmoury,*,Armoury,*,*
+Secret Exit,sArmoury,*,Armoury,*,*
+Entrance Hall,sTreasury,*,Treasury,*,*
+Dining Room,sTreasury,*,Treasury,*,*
+Kitchen,sTreasury,*,Treasury,*,*
+Armoury,sTreasury,*,Treasury,*,*
+Treasury,sTreasury,*,Treasury,*,*
+Library,sTreasury,*,Treasury,*,*
+Pantry,sTreasury,*,Treasury,*,*
+Throne Room,sTreasury,*,Treasury,*,*
+Wizard's Study,sTreasury,*,Treasury,*,*
+Secret Exit,sTreasury,*,Treasury,*,*
+Entrance Hall,sLibrary,*,Library,*,*
+Dining Room,sLibrary,*,Library,*,*
+Kitchen,sLibrary,*,Library,*,*
+Armoury,sLibrary,*,Library,*,*
+Treasury,sLibrary,*,Library,*,*
+Library,sLibrary,*,Library,*,*
+Pantry,sLibrary,*,Library,*,*
+Throne Room,sLibrary,*,Library,*,*
+Wizard's Study,sLibrary,*,Library,*,*
+Secret Exit,sLibrary,*,Library,*,*
+Entrance Hall,sPantry,*,Pantry,*,*
+Dining Room,sPantry,*,Pantry,*,*
+Kitchen,sPantry,*,Pantry,*,*
+Armoury,sPantry,*,Pantry,*,*
+Treasury,sPantry,*,Pantry,*,*
+Library,sPantry,*,Pantry,*,*
+Pantry,sPantry,*,Pantry,*,*
+Throne Room,sPantry,*,Pantry,*,*
+Wizard's Study,sPantry,*,Pantry,*,*
+Secret Exit,sPantry,*,Pantry,*,*
+Entrance Hall,sThrone Room,*,Throne Room,*,*
+Dining Room,sThrone Room,*,Throne Room,*,*
+Kitchen,sThrone Room,*,Throne Room,*,*
+Armoury,sThrone Room,*,Throne Room,*,*
+Treasury,sThrone Room,*,Throne Room,*,*
+Library,sThrone Room,*,Throne Room,*,*
+Pantry,sThrone Room,*,Throne Room,*,*
+Throne Room,sThrone Room,*,Throne Room,*,*
+Wizard's Study,sThrone Room,*,Throne Room,*,*
+Secret Exit,sThrone Room,*,Throne Room,*,*
+Entrance Hall,sWizard's Study,*,Wizard's Study,*,*
+Dining Room,sWizard's Study,*,Wizard's Study,*,*
+Kitchen,sWizard's Study,*,Wizard's Study,*,*
+Armoury,sWizard's Study,*,Wizard's Study,*,*
+Treasury,sWizard's Study,*,Wizard's Study,*,*
+Library,sWizard's Study,*,Wizard's Study,*,*
+Pantry,sWizard's Study,*,Wizard's Study,*,*
+Throne Room,sWizard's Study,*,Wizard's Study,*,*
+Wizard's Study,sWizard's Study,*,Wizard's Study,*,*
+Secret Exit,sWizard's Study,*,Wizard's Study,*,*
+Entrance Hall,sSecret Exit,*,Secret Exit,*,*
+Dining Room,sSecret Exit,*,Secret Exit,*,*
+Kitchen,sSecret Exit,*,Secret Exit,*,*
+Armoury,sSecret Exit,*,Secret Exit,*,*
+Treasury,sSecret Exit,*,Secret Exit,*,*
+Library,sSecret Exit,*,Secret Exit,*,*
+Pantry,sSecret Exit,*,Secret Exit,*,*
+Throne Room,sSecret Exit,*,Secret Exit,*,*
+Wizard's Study,sSecret Exit,*,Secret Exit,*,*
+Secret Exit,sSecret Exit,*,Secret Exit,*,*
+#
+#look - camerele adiacente
+Entrance Hall,lArmoury,*,Armoury,*,*
+Entrance Hall,lDining Room,*,Dining Room,*,*
+Dining Room,lEntrance Hall,*,Entrance Hall,*,*
+Dining Room,lKitchen,*,Kitchen,*,*
+Kitchen,lPantry,*,Pantry,*,*
+Kitchen,lDining Room,*,Dining Room,*,*
+Pantry,lKitchen,*,Kitchen,*,*
+Armoury,lTreasury,*,Treasury,*,*
+Armoury,lThrone Room,*,Throne Room,*,*
+Armoury,lEntrance Hall,*,Entrance Hall,*,*
+Treasury,lLibrary,*,Library,*,*
+Treasury,lArmoury,*,Armoury,*,*
+Library,lWizard's Study,*,Wizard's Study,*,*
+Library,lTreasury,*,Treasury,*,*
+Library,lSecret Exit,*,Secret Exit,*,*
+Throne Room,lArmoury,*,Armoury,*,*
+Wizard's Study,lSecret Exit,*,Secret Exit,*,*
+Wizard's Study,lLibrary,*,Library,*,*
+#camera finala
+Secret Exit,fSecret Exit,*,Secret Exit,*,*

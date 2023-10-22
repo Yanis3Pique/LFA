@@ -1,0 +1,42 @@
+[Variables]
+Q
+COMMAND
+SPECIAL_ITEM
+CASTLE_ROOM
+ACTION_ROOM
+ACTION_OBJECT
+RAND
+[Sigma]
+go
+take
+drop
+look
+inventory
+Entrance Hall
+Dining Room
+Kitchen
+Armoury
+Treasury
+Library
+Pantry
+Throne Room
+Wizard's Study
+Secret Exit
+key
+invitation
+chef's hat
+spoon
+sword
+crown
+ancient coin
+spell book
+magic wand
+#facem regulile sub forma normala Chomsky
+[Rules]
+COMMAND->QRAND
+Q->*
+RAND->ACTION_ROOMCASTLE_ROOM|ACTION_OBJECTSPECIAL_ITEM|look|inventory
+ACTION_ROOM->go
+ACTION_OBJECT->take|drop
+CASTLE_ROOM->Entrance Hall|Dining Room|Kitchen|Armoury|Treasury|Library|Pantry|Throne Room|Wizard's Study|Secret Exit
+SPECIAL_ITEM->key|invitation|chef's hat|spoon|sword|crown|ancient coin|spell book|magic wand

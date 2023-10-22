@@ -1,0 +1,16 @@
+[Sigma]
+0
+1
+[Gama]
+0
+1
+[States]
+q1,s
+q2
+q3
+q4,f
+[Actions]
+#stare,input,inLista,stareUrmatoare,sterge,introdu
+q1,0,0,q2,0,1
+q1,0,!0,q2,0,0
+q2,1,0,q3,1,1
